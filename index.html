@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>完美世界竞技平台</title>
+    <style type="text/css">
+        @font-face {
+            font-family: ziti;
+            src: url("douyuzhuiguangti.ttf");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            text-indent: 2em;
+            font-family: 楷体 ;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background:linear-gradient(to bottom,rgb(196, 196, 245),rgb(255, 255, 255),rgb(196, 196, 245));
+
+            width: 1600px;
+            margin: 0 auto;
+        }
+        #logo{
+            background-image: url(images/pwelogo.png);
+            width: 481px;
+            height: 64px;     
+            margin-top:20px
+        }
+        #header{
+            position: relative;
+            width: 1600px;
+        }
+        #youshang a{
+            color: rgb(148, 148, 148);
+            position: absolute;
+            top: 0px;
+            right: 20px;
+        }
+        #biaoti{
+            margin:50px  0;
+        }
+        h1{
+            font-family: ziti;
+            font-size: 80px;
+            text-align: center;   
+        }
+        #download{
+            
+        }
+        #download a{
+            display: block;
+            font-size: 50px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            border: solid;
+            border-radius: 20px;
+            width: 500px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: rgb(201, 217, 241);
+        }
+        #daohang{
+            margin: 50px auto;
+            position: relative;
+            left: 380px;
+            
+        }
+        #daohang li a{
+            border: solid;
+            float: left;
+            display: block;
+            border-radius: 20px;
+            width: 120px;
+            height: 50px;
+            text-decoration: none;
+            line-height: 50px;
+            text-align: center;
+            margin: 0 20px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(201, 217, 241);
+            
+        }
+        
+        h2{
+            font-family: 隶书;
+            color: rgb(65, 64, 64);
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style-type: none;
+        }
+        #clear{
+            clear: both;
+        }
+        
+        #main{
+            width: 1600px;
+            margin: 50px auto;
+        }
+        #New {
+            width: 500px;
+            position: relative;
+            border-right: gray 1px solid;
+            padding-right: 30px;
+            margin-left: 20px;
+            margin-bottom :50px;
+            float:left
+        }
+
+        #new1-title {
+            font-size: 110%;
+            font-family: 楷体;
+            color: gray;
+            font-weight: bold;
+
+        }
+
+        #new1-neirong {
+            font-size: 100%;
+            font-family: 楷体;
+
+        }
+
+        #new1 {
+            padding-left: 10px;
+            border-left: blue 10px solid;
+            margin-bottom: 20px;
+        }
+
+        #new2-title {
+            font-size: 110%;
+            font-family: 楷体;
+            color: gray;
+            font-weight: bold;
+
+        }
+
+        #new2-neirong {
+            font-size: 100%;
+            font-family: 楷体;
+
+
+        }
+
+        #new2 {
+            padding-left: 10px;
+
+            border-left: blue 10px solid;
+        }
+        #youbian{
+            float: left;
+            width: 65%;
+        }
+        #left
+        {
+            float: left;
+            margin-left: 30px;
+            width: 45%;
+
+        }
+        #one{
+            float: left;
+        }
+
+        #tupian2{
+            margin-left: 90px;
+            margin-bottom: 20px;
+        }
+        #tupian2 img{
+            border: 10px solid black;
+            border-radius: 10px;
+            width: 300px;
+        }
+        #right
+        {
+            float:right ;
+            width: 50%;
+            margin-left: 10px;
+        }
+        #line{
+            border-left: 10px solid blue;
+            margin-bottom: 20px;
+            padding-left: 9px;
+            font-size: 80%;
+
+        }
+        #xian1{
+            border-top:solid 1px gray;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        #bottom1 #list{
+            margin-left: 40px;
+        }
+        #bottom1 li img{
+            width: 50px;
+            border-radius: 25px;
+        }
+        li p{
+            position: relative;
+            left: 22px;
+            bottom: 45px;
+            font-size: 25px
+        }
+        gws{
+            position: relative;
+            bottom: 15px;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-right: 5px;
+        }
+        #bottom2{
+            margin-left: 30px;
+        }
+        #bottom2 #title h2{
+            margin-top: 30px;
+        }
+        #tupian{
+            background-color: rgb(212, 212, 252);
+            height: 400px;
+            border-radius: 30px;
+        }
+        #tupian li{
+            float: left;
+            margin-left: 30px;
+        }
+        #tupian ul{
+            position: relative;
+            top: 30px;
+        }
+        #tupian p{
+            margin: 20px  30px 30px;
+        }
+        gws2{
+            margin-left: 110px;
+            color: rgb(102, 105, 173);
+        }
+        #xian2{
+            border-top:solid 1px gray;
+            width: 900px;
+            margin: 40px auto 0;
+        }
+        #xian3{
+            border-top:solid 1px gray;
+            width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    
+        
+            <div id="header">
+                <div id="logo"></div>
+                <div  id="biaoti">
+                    <h1>完美世界竞技平台</h1>
+                </div>
+                <div id="download"><a href="https://pvp.wanmei.com/" >立即下载</a></div>
+                <div id="daohang">
+                    <ul>
+                        <li><a  href="#">PWA竞技平台</a></li>
+                        <li> <a  href="#">完美电竞APP</a></li>
+                        <li> <a  href="#">常见问题</a></li>
+                        <li><a  href="#">客服入口</a></li>
+                        <li><a  href="#">DOTA2</a></li>
+                    </ul>
+                    <div id="clear"></div>
+                </div>
+                <div id="youshang">
+                    <ul>
+                        <li><a href="#">登录</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="clear"></div>
+            <div id="main">
+                <div id="New">
+                    <h2>新闻</h6>
+                        <div id="new1">
+                            <div id="new1-title">逆鳞淬火，苍龙腾霄！TYLOO 2-0 RA晋级奥斯汀Major</div>
+                            <div id="new1-neirong">
+                                <br>
+                                <p>奥斯汀Major中国MRQ:TYLOO迎战RA。图一阿努比斯，率先进入状态的RA打出8-0开局，慢热的TYLOO将比赛拖入加时逆转对手。来到荒漠迷城，TYLOO延续了上张图的火热状态，防守方拿到9分，换边后击败对手晋级奥斯汀Major。
+                                </p>
+                            </div>
+                        </div>
+                        <div id="new2">
+                            <div id="new2-title">残阳淬铁甲，熊啸定孤城！LV G2-1 TYLOO晋级奥斯汀Major</div>
+                            <div id="new2-neirong">
+                                <br>
+                                <p> 奥斯汀Major中qq 国MRQ:第二日胜者组对决，TYLOO迎战LVG。图一LVG选图Nuke 在对手领先的情况下稳扎稳打关键局打赢T
+                                    YLOO一波带走对手；图二Inferno在TYLO
+                                    O手握七个赛点的情况下，LVG韧性极强将比赛拖进加时，但双方鏖战两个加时最后还是TYLOO赢下图二；进入决胜图的双方打得难舍难分，到了防守方的LVG战术更胜一筹打法也更加激进，LVG
+                                    2-1击败TYL OO拿到奥斯汀Major中国区的第一张门票。</p>
+                            </div>
+                        </div>
+                    <div id="xian1"></div>
+                    <div id="bottom1">
+                        <div id="title">
+                            <br>
+                            <br>
+                            <h2>
+                                排行榜
+                            </h2>
+                        <div id="list">
+                            <ul>
+                                <li><gws style="color: gold;">1</gws><img src="touxiang/1.png"><p>danilK</p></li>
+                                <li><gws style="color: silver;">2</gws><img src="touxiang/2.jpg"><p>发如雪的男子</p></li>
+                                <li><gws style="color: rgb(184,115,51);">3</gws><img src="touxiang/3.png"><p>donk</p></li>
+                                <li><gws >4</gws><img src="touxiang/4.png"><p>花花6+1</p></li>
+                                <li><gws >5</gws><img src="touxiang/5.png"><p>职业选手吕郑豪</p></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>   
+                </div>
+
+                <div  id="youbian">
+                            <div id="left">
+                    <div id="one">
+                        <div id="title">
+                            <h2>
+                                个人巅峰赛
+                            </h2>
+                           
+                        </div>
+                         <div id="tupian2">
+                                <img src="images/1.jpg">
+                            </div>
+                            <div id="text">
+                                <p>升级后的巅峰赛分为“个人巅峰赛”和“巅峰赏金赛”两个赛段。新赛季开始后2-3周，先进行的赛段为“个人巅峰赛”，面向平台所有S级玩家开放。只要玩家升入S级段位，同时符合完美战力10级、信誉分85分以上条件，即可收到比赛入围邀请函，激活巅峰赛参赛资格。</p>
+                            </div>
+                    </div>
+
+                   
+                     </div>
+                    <div id="right">
+                         <div id="one">
+                             <div id="title">
+                                <h2>
+                                    【持续打击违规行为 封禁处罚多管齐下】
+                                </h2>
+                             </div>
+                            <div id="text">
+                                <p>
+                                    为了更好地维护平台绿色竞技环境、杜绝破坏体验的违规行为，一直以来，平台坚持持续优化调整识别判定方式、定位违规行为，致力于将问题账号细分为多种不同类型逐个击破。在当前的判定体系下，平台已能够有效识别炸鱼高风险账号、黑号、高分DMA等多项违规疑难类型，并分别施以有效惩处。近期取得成果如下：
+                                </p>
+                                <br>
+                                <div id="line">
+                                    1. 惩处炸鱼高风险账号2996个，均处以14天临时封禁处罚，同时取消绿色认证资格，使之进入低优先匹配
+                                </div>
+                                <div id="line">
+                                    2. 惩处黑号高风险账号4158个，均处以取消绿色认证/老兵资格，使之进入低优先匹配
+                                </div>
+                                <div id="line">
+                                    3. 惩处高分DMA作弊账号290个，均处以PAC封禁处罚
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <div id="clear"></div>
+                    <div id="xian2"></div>
+
+                    <div id="bottom2">
+                        <div id="title">
+                            <h2>
+                                完美平台第三方赛事合作中心
+                            </h2>
+                        </div>
+                        <div id="tupian">
+                            <br>
+                            <p>完美世界竞技平台不仅是一个线上游戏对战平台，更是一个专业的电竞赛事支持平台。平台现已成功承办过多次由Valve官方授权认证的大型赛事，如CAC亚洲邀请赛、PAL完美世界职业联赛等，并曾为多个大型第三方赛事提供比赛支持。</p>
+                            <p>作为反恐精英: 全球攻势国服运营方，我们希望国内有越来越多第三方赛事涌现，越来越多玩家能够体验到CS比赛的乐趣。欢迎各界伙伴使用完美平台举办CS赛事，如需平台提供相关技术支持，请在此提交申请，经审核后，平台将与您取得联系，根据赛事规模和类型为您提供相应的各项帮助。</p>
+
+                            <ul>
+                                <li><img  src="images/b1.png"><br><gws2>了解详细</gws2></li>
+                                <li><img  src="images/b2.png"><br><gws2>了解详细</gws2></li>
+                                <li><img  src="images/b3.png"><br><gws2>了解详细</gws2></li>
+                            </ul>
+                            <div id="to be"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="clear"></div>
+                <div id="xian3"></div>
+                
+            </div>
+        <footer>
+            <div id="logo"></div>
+            <br>
+        </footer>
+        
+    
+</body>
+
+</html>
